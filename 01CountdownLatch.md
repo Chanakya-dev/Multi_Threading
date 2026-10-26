@@ -4,17 +4,11 @@ You are waiting for your birthday party to start.
 
 Before the party starts, you need 3 things to happen:
 
-[Happy sweet little boy wearing a party hat running with colorful balloons. Childrens birthday party cartoon character vector Illustration](https://images.openai.com/static-rsc-4/HfW72eXt5kMC_UpgZLZ979_OoqfDYzipgoMJrSDfYV8vQyFt7iATpqIK756rQxezRYjpnLYN0akA9UXfm7nKfsjyhWupqEHsmkQT60m1kq8c5LP39eOe_v0O3CkumJi2LRY7D3nncnBvCAB2FeNoJYjc8GbcsdKqPKiho5JfnR6zlcZaH1GR_JUxD0dPIri2?purpose=inline)
-
 Task 1: Balloons\
 Someone must blow up the balloons.
 
-[Cute Kawaii Birthday Cake with 3 Candles (Third Birthday) 🎂🥳✨ Clipart Illustration](https://images.openai.com/static-rsc-4/V6dWMdq7M_9fSivA_vHIvciP2yth8_cu5eCqooqvXKcq8-c7o9W8CgZ_vuTuKYHetBBZYkZQXDiA6RH6hw1SpcVjlqfQCizJB_5ks0IC3wKHarFVFyq4sZxbtyVsiEbnjIfiWlcVIIBwLOQgH_Ew3Rlhi3ENHBYXDfRL14jjhNk?purpose=inline)
-
 Task 2: Cake\
 Someone must bring the cake.
-
-[Cute Smiling Pink Gift Box Character Icon](https://images.openai.com/static-rsc-4/TnLzFKroMtKg4LWsdngOe4j92JYmO0zP21dBPvoMefEzq2_yFCcFouDiYwF39ol88OsiuekV9gUG-xtbA5PL1rbjvbUXUZPyi1XSOktiD00CjL_gQHFfXmBcxviv9yi5AlqC7Ss_ju3EkcUiVMXkFH3P5hJvnMw0ZknRJ5M9c2qaxl7b-vcp_ROSfzRggcXP?purpose=inline)
 
 Task 3: Gifts\
 Someone must bring the gifts.
