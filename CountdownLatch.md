@@ -1,5 +1,3 @@
-Let's forget the complicated Java words for a moment. 😊 Imagine we are playing a game!
-
 ## 1. Imagine this situation 🎂
 
 You are waiting for your birthday party to start.
@@ -131,5 +129,3 @@ The three tasks can finish in any order, but the final message won't print until
 Remember just this sentence for now:
 
 `CountDownLatch` means "Wait until the required number of things are finished."
-
-In the next step, the most useful thing to understand is why `await()` makes the main thread wait while the other threads continue working.
