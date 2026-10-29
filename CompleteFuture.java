@@ -102,7 +102,53 @@ System.out.println(future2.join());
             System.out.println(e.getMessage());
         }
 
+    // Completable Future Exception Handling
+    CompletableFuture<Object> exceptional =
+        CompletableFuture.supplyAsync(() -> {
+            throw new RuntimeException("Service unavailable");
+        }).exceptionally(ex -> {
+            System.out.println("Error: " + ex.getMessage());
+            return "Default Response";
+        });
+
+System.out.println(exceptional.join());
+
+// Working with Handle Method 
+CompletableFuture<String> exceptional1 =
+        CompletableFuture.supplyAsync(() -> {
+            int amount = 1000;
+
+            if (amount > 500) {
+                throw new RuntimeException("Amount exceeds limit");
+            }
+
+            return "Payment Successful";
+        }).handle((results, ex) -> {
+
+            if (ex != null) {
+                return "Payment Failed: " + ex.getMessage();
+            }
+
+            return results;
+        });
+
+System.out.println(exceptional1.join());
 
 
-    }
+// Working with WhenComplete
+
+CompletableFuture<String> exceptional2 =
+        CompletableFuture.supplyAsync(() -> {
+            return "Payment Successful";
+        }).whenComplete((result2, ex) -> {
+
+            if (ex != null) {
+                System.out.println("Logging error: " + ex.getMessage());
+            } else {
+                System.out.println("Logging result: " + result2);
+            }
+        });
+
+System.out.println(exceptional2.join());
+}
 }
